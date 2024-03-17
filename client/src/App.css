@@ -1,0 +1,44 @@
+.userDocuments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .document{
+    border: 1px solid;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+    align-items: center;
+  }
+  
+  .document span{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #userText{
+    width: 80%;
+    height: 70%;
+    padding: 1rem;
+    line-height: 1.2rem;
+    font-size: 14px;
+    font-weight: 400px;
+    
+  }
+  
+  .submitBtn{
+    height: 2.5rem;
+    width: 10rem;
+    cursor: pointer;
+  }
